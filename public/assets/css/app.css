@@ -1,0 +1,78 @@
+body {
+    color: white;
+    background-color: black;
+}
+
+.nav-link.active {
+    color: red;
+    /* Warna teks pada tautan aktif */
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+
+.nav-link:hover {
+    color: rgb(231, 37, 69);
+}
+
+
+.navbar, a {
+    font-size: 20;
+    font-weight: 500;
+}
+
+.nav-link {
+    position: relative;
+    left: 5%;
+    margin-left: 30px;
+}
+
+.carousel {
+    position: relative;
+    width: 50%;
+    left: 25%;
+    margin-top: 2.5rem;
+}
+
+.chart {
+    position: relative;
+    left: 80%;
+    width: 8%;
+}
+
+.profile {
+    position: relative;
+    width: 50%;
+}
+
+.rowitem {
+    margin-top: 3rem;
+    border-radius: 15px;
+    height: 15%;
+    background-color: white;
+}
+
+.carduser {
+    position: relative;
+    left: 1rem;
+    width: 25%;
+}
+
+.card {
+    margin-top: 1rem;
+    margin-left: 4rem;
+}
+
+.carditem {
+    max-width: 60rem;
+    margin-top: 1rem;
+    max-height: 20rem;
+}
